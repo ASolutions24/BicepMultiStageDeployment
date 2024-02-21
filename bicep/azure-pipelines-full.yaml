@@ -9,8 +9,8 @@ variables:
 
   azureServiceConnection: 'Dev_Subscription'
   location: 'australiaeast'
-  templateFile: 'bicep/azure_resource_group/template.bicep'
-  templateParameterFile: 'bicep/azure_resource_group/parameters.json'
+  templateFile: 'bicep/template.bicep'
+  templateParameterFile: 'bicep/parameters.json'
 
 pool:
   vmImage: $(vmImageName)
