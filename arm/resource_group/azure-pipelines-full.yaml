@@ -7,7 +7,7 @@ name: Deploy Bicep files
 variables:
   vmImageName: 'ubuntu-latest'
 
-  azureServiceConnection: 'devops-poc3-deploy-spi'
+  azureServiceConnection: 'Dev_Subscription'
   location: 'australiaeast'
   templateFile: 'bicep/azure_resource_group/template.bicep'
   templateParameterFile: 'bicep/azure_resource_group/parameters.json'
